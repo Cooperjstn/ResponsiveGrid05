@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 960px;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  margin: auto;
+  padding-left: 10%;
+  position: relative;
+}
+
+.top {
+  margin: auto;
+}
+
+.img1 {
+  margin: auto;
+  display: block;
+}
+
+.menu {
+  margin: auto;
+}
+
+h5 {
+  text-align: center;
+}
+
+.Fil {
+  text-align: center;
+  font-size: small;
+}
+
+.grid {
+  font-size: 0pt;
+  position: absolute;
+}
+
+#grid {
+   width: 25%;
+   padding-bottom: 25%;
+}
+
+@media only screen and (max-width : 768px) {
+   .grid{
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1024px) {
+   .grid {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
