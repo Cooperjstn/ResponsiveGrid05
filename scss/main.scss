@@ -49,7 +49,7 @@ img {
    width:100%;
    display: inline-block;
    color: grey;
-   font-family: helvetica, sans-serif;
+   font-family: helvetica;
 }
 
 .menu {
@@ -62,7 +62,7 @@ img {
    display: inline-block;
 }
 
-.imgbx {
+.imagebox {
    width: 100%;
    font-size: 0;
    margin: auto;
@@ -167,7 +167,7 @@ img {
    }
     .menu {
          width: 25%;
-         border-right: 1px solid lightgrey;
+         border-right: 1px solid grey;
          text-align: right;
          padding: 8px;
       }
