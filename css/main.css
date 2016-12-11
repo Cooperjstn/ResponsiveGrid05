@@ -1,130 +1,152 @@
 * {
   box-sizing: border-box; }
 
-.body {
-  font-family: "Helvetica Neue", "Helvetica", sans-serif; }
-
-.img {
+img {
   width: 100%;
-  display: block; }
-
-.a {
-  text-decoration: none; }
+  display: inline-block; }
 
 #app-container {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: auto; }
 
 .column-container {
+  width: 100%;
+  display: block;
   font-size: 0; }
 
 .column-container > * {
-  vertical-align: top;
   font-size: medium;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top; }
 
-.nav-header a {
-  color: #747474;
-  font-size: 11px; }
-
-.nav-header .mobile-header div {
+.title-box {
+  display: inline-block;
+  margin: center;
+  vertical-align: top;
   width: 100%;
   text-align: center;
-  padding-bottom: 5%; }
+  font-size: 0; }
 
-.nav-header .mobile-header .logo {
+.box1 {
+  width: 100%;
+  display: inline-block; }
+
+.box1 img {
+  padding: 80px; }
+
+.mf {
+  width: 100%;
+  display: inline-block;
+  color: grey;
+  font-family: helvetica, sans-serif; }
+
+.menu {
+  width: 100%;
+  display: inline-block; }
+
+.filter {
+  width: 100%;
+  display: inline-block; }
+
+.imgbx {
+  width: 100%;
+  font-size: 0;
+  margin: auto; }
+
+.picture {
   width: 50%;
-  margin: 0 auto; }
+  border-radius: 2px;
+  padding: 2px; }
 
-.nav-header .mobile-header .menu {
-  font-weight: bold; }
+.gallery {
+  border-radius: 5px;
+  padding: 2px; }
 
-.nav-header .standard-header {
-  display: none; }
+.footer {
+  width: 100%;
+  display: inline-block;
+  margin-top: -10px;
+  background-color: 0.2; }
 
-.img-body {
-  margin-bottom: 2%; }
+.footcont {
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid lightgrey; }
 
-.img-container {
-  width: 50%; }
-
-.nav-footer .standard-footer {
-  display: none; }
-
-.nav-footer .footer-link {
-  width: 25px;
-  padding: 5px;
-  margin: 0 auto 2% auto;
-  background: #747474; }
-
-.nav-footer .footer-link a {
-  color: #aaa; }
-
-.nav-footer .search {
-  margin: 0 auto;
-  border: 2px solid rgba(110, 110, 110, 0.5);
-  width: 100px; }
-
-.nav-footer .search input {
-  width: 70px;
-  border: none; }
-
-.nav-footer .search i {
-  color: rgba(110, 110, 110, 0.5); }
+.closing {
+  width: 100%;
+  display: inline-block;
+  margin-left: 0 auto; }
+  .closing button {
+    color: #969696;
+    border-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 1px solid #6E6E6E;
+    background-color: #6E6E6E;
+    height: 40px;
+    width: 40px;
+    padding: 10px; }
+  .closing form {
+    border: 1px solid grey;
+    width: 50%;
+    margin: auto auto; }
+  .closing input {
+    border: none; }
 
 @media screen and (min-width: 768px) {
-  .nav-header .mobile-header {
-    display: none; }
+  .picture {
+    width: 33.3333%; }
 
-  .nav-header .standard-header {
-    width: 100%;
-    display: inline-block; }
+  .box1 {
+    width: 50%; }
 
-  .nav-header .standard-header .logo {
-    width: 25%; }
+  .menufilter {
+    width: 50%;
+    margin-top: 95px;
+    text-align: right; }
 
-  .nav-header .standard-header .filter {
-    padding: 5px 2% 5px 60%;
-    border-right: 1px #747474 solid; }
+  .menu {
+    width: 25%;
+    border-right: 1.5px solid grey;
+    text-align: right;
+    padding: 8px; }
 
-  .nav-header .standard-header .menu {
-    padding: 5px 0 5px 2%; }
+  .filter {
+    width: 25%;
+    text-align: left;
+    padding: 8px; }
 
-  .nav-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    top: 94%;
-    background: rgba(255, 255, 255, 0.8); }
-
-  .nav-footer .mobile-footer {
-    display: none; }
-
-  .nav-footer .standard-footer {
-    width: 100%;
-    display: inline-block; }
-
-  .nav-footer .standard-footer .search-wrapper {
-    padding: 10px;
-    width: 20%; }
-
-  .nav-footer .standard-footer .link-wrapper {
-    padding: 7px;
-    width: 55%; }
-
-  .img-container {
+  .closing {
     width: 33.3333%; } }
 @media screen and (min-width: 1024px) {
-  .img-container {
+  .picture {
+    width: 25%; }
+
+  .box1 {
+    width: 50%; }
+
+  .menufilter {
+    width: 50%;
+    margin-top: 95px;
+    text-align: right; }
+
+  .menu {
     width: 25%;
-    position: relative; }
+    border-right: 1px solid lightgrey;
+    text-align: right;
+    padding: 8px; }
 
-  .nav-footer {
-    position: absolute;
-    top: 80%;
-    max-width: 960px; }
+  .filter {
+    width: 25%;
+    text-align: left;
+    padding: 8px; }
 
-  .nav-footer .standard-footer .footer-link {
-    display: none; } }
+  .closing {
+    width: 25%;
+    text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */
